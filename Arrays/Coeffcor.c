@@ -22,7 +22,7 @@ int main()
 	for (i = 0; i<11; i++)
 	{
 		xsum = xsum + x[i][0];
-		ysum = ysum + x[i][0];
+		ysum = ysum + x[i][1];
 		xysum = xysum + x[i][0] * x[i][1];
 		x2sum = x2sum + x[i][0] * x[i][0];
 		y2sum = y2sum + x[i][1] * x[i][1];
